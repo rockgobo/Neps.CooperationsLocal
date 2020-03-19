@@ -1,0 +1,23 @@
+﻿<h3>Neps.Cooperations</h3>
+<p class="Contributor">
+	LIfBi <br />
+	<a href="mailto:christian.matyas@lifbi.de">christian.matyas@lifbi.de</a><br />
+	<a href=http://www.lifbi.de>http://www.lifbi.de</a><br />
+</p>
+<hr/>
+<div class="License">
+	<h3>About the Neps.Cooperations</h3>
+	<p class="Owner">
+		<b>Version CHANGEME</b><br /><br />
+	</p>
+	<p>Description about version.</p>
+	
+	<h4>Bug Fixes</h4>
+	<ul>
+			<li>List</li>
+			<li>of</li>
+			<li>bug</li>
+			<li>fixes</li>
+	</ul>
+	
+</div>

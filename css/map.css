@@ -1,0 +1,149 @@
+﻿body {
+    font-family: Calibri, Arial;
+}
+
+.map, .map *, .map *:before, .map *:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /*content: " ";*/
+}
+
+.map {
+    width: 100%;
+    display: table;
+}
+
+#chart svg{
+    border-right: 1px dashed #ccc;
+}
+#topo svg{
+    border: 1px solid #ccc;
+}
+
+.projects ul
+{
+    margin: 0px;
+    padding: 0px;
+}
+.projects li{
+    font-size: 8pt;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.projects li:hover {
+    cursor: pointer;
+    color: #f6a849;
+}
+
+.map .region {
+    fill: #7fc6e0;
+}
+
+.map .link {
+    stroke: white;
+    opacity: 0.4;
+}
+
+.container .logo {
+    vertical-align: middle;
+    max-width: 80px;
+    max-height: 45px;
+    
+    width: auto;
+    height: auto;
+    margin: 2px;
+    margin-bottom: 20px;
+    float: none;
+
+    filter: grayscale;
+    -webkit-filter: grayscale;
+    -moz-filter: grayscale;
+    -ms-filter: grayscale;
+    -o-filter: grayscale;
+    filter: url(desaturate.svg#greyscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+
+    opacity: 0.4;
+}
+
+.map .logo:hover,.map img.highlight {
+    filter: none;
+    -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    -o-filter: none;
+    opacity: 1;
+}
+
+.map .node {
+    fill: #fff;
+    stroke: #666;
+}
+
+.map .node:hover {
+    cursor: pointer;
+    fill: #f6a849; 
+}
+
+.place-label {
+    font-size: 10pt;
+}
+
+.subunit {
+    stroke: #fff;
+    stroke-width: 0.5;
+}
+
+.DE_BW, .Bamberg_Städte {
+    /*fill: #87ceeb; */
+}
+.DE_BY, .Bamberg {
+    /*fill: #A9E2F3; */
+}
+.DE_RP, .Forchheim {
+    /*fill: #A9F5F2; */
+}
+.DE_SL, .Bayreuth {
+   /* fill: #81DAF5; */
+}
+.DE_HE, .Bayreuth_Städte {
+   /* fill: #81F7F3; */
+}
+.DE_TH, .Wunsiedel {
+    /*fill: #58D3F7; */
+}
+.DE_SN, .Hof {
+   /* fill: #58FAF4; */
+}
+.DE_NW, .Kronach {
+    /*fill: #2ECCFA; */
+}
+.DE_NI, .Lichtenfels {
+   /* fill: #2EFEF7; */
+}
+.DE_HB, .Coburg {
+   /* fill: #00BFFF; */
+}
+.DE_ST, .Coburg_Städte {
+   /* fill: #A9E2F3; */
+}
+.DE_BR, .Kulmbach {
+   /* fill: #58D3F7; */
+}
+.DE_BE, .Hof_Städte{
+   /* fill: #81BEF7; */
+}
+.DE_HH {
+   /* fill: #A9E2F3; */
+}
+.DE_SH {
+   /* fill: #A9E2F3; */
+}
+.DE_MV {
+   /* fill: #A9F5F2; */
+}

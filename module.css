@@ -1,0 +1,83 @@
+﻿body {
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+h1 {
+    font-size: 14pt;    
+}
+
+.node {
+    /*stroke: #fff;
+    stroke-width: 1.5px;*/
+}
+
+.node text {
+  pointer-events: none;
+  font: 10px sans-serif;
+    opacity: 0.0;
+}
+
+.link {
+    stroke: #999;
+    stroke-opacity: .6;
+}
+
+.node_link {
+    font-family: arial;
+    font-size: 9pt;
+}
+.node_link:hover, .node:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    fill: #f6a849;
+}
+
+#container_info{}
+
+#container_cooperations {
+}
+
+#container_cooperations .container
+{
+    float: left;
+    margin-left: 20px;
+    margin-right: 0px;
+    height: 120px;
+}
+
+.container {
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 400px;
+    border: 1px solid #CCC;
+}
+.container h2{
+    font-size: 12pt;
+    margin-top: 0px;
+}
+.container .logo {
+    float: right;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.container .clear {
+    clear: both;
+}
+
+#view_logos {
+    clear: both;
+    margin-top: 20px;
+    border-top: 1px dashed #cccccc;
+}
+
+/* Settings */
+#cooperationsSetting .txtDatafield {
+    font-size: 10pt;
+}
+
+.projects h3{
+    margin-top: 0px;
+}
