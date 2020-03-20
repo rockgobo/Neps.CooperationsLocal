@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="module.css">
+        <link rel="stylesheet" type="text/css" href="css/map.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap_rows.css">
+        
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>    
+        <script src="node_modules/knockout/build/output/knockout-latest.js"></script>
+        <script src="node_modules/knockout-mapping/dist/knockout.mapping.min.js"></script>
+        <script src="js/ViewModel/viewmodel.js"></script>
+        <script src="js/lifbi.logging.js"></script>
+        <script src="js/d3.min.js"></script>
+    </head>
+    <body>
+
+        <div class="map container">
+            <div data-bind="foreach: Institutes" class="institutes">
+                <a data-bind="attr: { href: url, target: '_blank' },
+                              event: { mouseover: $root.showLocation, mouseout: $root.unshowLocations }">
+                    <img data-bind="attr: { src: controlPath + 'images/' + logo, title: name },
+                                css: { highlight: $root.highlightedLocation() == location || $root.highlightedInstitutes.indexOf(id) > -1 },
+                                style: { display: logo ? '' : 'none' }" class="logo" />
+                </a>
+            </div>
+        </div>
+        <div class="map container">
+        <div class="row">
+            <div id="chart" class="col-md-6"></div>
+            <div class="col-md-6 projects">
+                <h3 data-bind="text: ProjectsHeadline"></h3>
+                <ul data-bind="foreach: Projects">
+                    <a data-bind="attr: { href: url ? url : '#', target: url ? '_blank' : '' },
+                                        css: { highlight: $root.highlightedProject() == id },
+                                        event: { mouseover: $root.showProject, mouseout: $root.unshowProject }">
+                        <li data-bind="text: name"></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        </div>    
+
+
+
+        <script>
+            /** 
+            * Einstellungen, die normalerweise dynamisch im CMS gesetzt werden
+            */ 
+            controlPath = "" 
+            language="de" 
+        </script>
+        <script src="coopmap_view.js"></script>
+
+
+    </body>
+</html>

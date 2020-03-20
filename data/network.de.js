@@ -26,12 +26,6 @@
                 "lon": "8.461786"
             },
             {
-                "id": 5,
-                "name": "Siegen",
-                "lat": "50.91082",
-                "lon": "8.0273"
-            },
-            {
                 "id": 6,
                 "name": "Leipzig",
                 "lat": "51.3321772",
@@ -42,18 +36,6 @@
                 "name": "Tübingen",
                 "lat": "48.51723",
                 "lon": "9.0561"
-            },
-            {
-                "id": 8,
-                "name": "Nürnberg",
-                "lat": "49.4521389",
-                "lon": "11.0790319"
-            },
-            {
-                "id": 9,
-                "name": "Hannover",
-                "lat": "52.3770514",
-                "lon": "9.7315731"
             },
             {
                 "id": 10,
@@ -145,28 +127,6 @@
             "url":"http://www.uni-tuebingen.de/"
         },
         {
-            "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-            "address": "Findelgasse 7-9, 90402, Nürnberg, Germany",
-            "lat": "49.4521389",
-            "lon": "11.0790319",
-            "id": 4,
-            "logo": "FAU_cmyk_71.jpg",
-            "group": 1,
-            "location": 8,
-            "url":"http://www.uni-erlangen.de/"
-        },
-        {
-            "name": "Leibniz Universität Hannover",
-            "address": "Welfengarten 1, 30167, Hannover, Germany",
-            "lat": "52.38228",
-            "lon": "9.71812",
-            "id": 7,
-            "logo": "leibniz-uni-hannover-logo.jpg",
-            "group": 1,
-            "location": 9,
-            "url":"http://www.uni-hannover.de/"
-        },
-        {
             "name": "Humboldt-Universität zu Berlin",
             "address": "Unter den Linden 6, 10099, Berlin, Germany",
             "lat": "52.51806",
@@ -222,17 +182,6 @@
             "url":"http://www.ipn.uni-kiel.de/"
         },
         {
-            "name": "ifo Institut – Leibniz-Institut für Wirtschaftsforschung an der Universität München e.V.",
-            "address": "Poschingerstraße 5, 86460, München, Germany",
-            "lat": "48.15294",
-            "lon": "11.60517",
-            "id": 10,
-            "logo": "logo_ifo_3z_gif_dt.jpg",
-            "group": 1,
-            "location": 2,
-            "url":"http://www.cesifo-group.de/de/ifoHome.html"
-        },
-        {
             "name": "Ludwig-Maximilians-Universität München",
             "address": "Geschwister-Scholl-Platz 1, 80539, München, Germany",
             "lat": "48.15069",
@@ -243,17 +192,7 @@
             "location": 2,
             "url":"http://www.uni-muenchen.de/"
         },
-        {
-            "name": "Universität Hamburg",
-            "address": "Von-Melle-Park 8, 20146, Hamburg, Germany",
-            "lat": "53.5672202",
-            "lon": "9.9844533",
-            "id": 16,
-            "logo": "UniHH_klein.jpg",
-            "group": 1,
-            "location": 14,
-            "url":"http://www.uni-hamburg.de/"
-        },
+    
         {
             "name": "Universität Leipzig",
             "address": "Beethovenstraße 15, 4107, Leipzig, Germany",
@@ -277,16 +216,6 @@
             "url":"https://www.neps-data.de"
         },
         {
-            "name": "Universität Siegen",
-            "address": "Adolf-Reichwein-Str. 2, 57068, Siegen, Germany",
-            "lat": "50.91082",
-            "lon": "8.0273",
-            "id": 1,
-            "logo": "uni_logo_Siegen_klein.jpg",
-            "group": 1,
-            "location": 5,
-            "url":"http://www.uni-siegen.de/"
-        },    {
             "name": "Wissenschaftszentrum Berlin für Sozialforschung (WZB)",
             "address": "Reichpietschufer 50, 10785, Berlin, Germany",
             "lat": "52.50599",
@@ -297,19 +226,6 @@
             "location": 3,
             "url":"http://www.wzb.eu/de"
         },
-           
-        {
-            "name": "Zentrum für Europäische Wirtschaftsforschung (ZEW) GmbH Mannheim",
-            "address": "L7 1, 68161, Mannheim, Germany",
-            "lat": "49.4828759",
-            "lon": "8.4663469",
-            "id": 19,
-            "logo": "ZEW-Logo_klein.jpg",
-            "group": 1,
-            "location": 4,
-            "url":"http://www.uni-mannheim.de/1/"
-        }
-            
     ],
     "network":[
             { "source": 8, "target": 21, "value": 1, "project": 1 },
@@ -333,7 +249,30 @@
             { "source": 14, "target": 15, "value": 1, "project": 10 },
             { "source": 2, "target": 13, "value": 1, "project": 11 },
             { "source": 11, "target": 0, "value": 1, "project": 12 },
+            { "source": 11, "target": 10, "value": 1, "project": 14 }           
+            { "source": 8, "target": 21, "value": 1, "project": 1 },
+            { "source": 21, "target": 13, "value": 1, "project": 2 },
+            { "source": 21, "target": 7, "value": 1, "project": 2 },
+            { "source": 13, "target": 7, "value": 1, "project": 2 },
+            { "source": 21, "target": 17, "value": 1, "project": 4 },
+            { "source": 21, "target": 12, "value": 1, "project": 4 },
+            { "source": 17, "target": 12, "value": 1, "project": 4 },
+            { "source": 21, "target": 18, "value": 1, "project": 5 },
+            { "source": 21, "target": 3, "value": 1, "project": 5 },
+            { "source": 21, "target": 6, "value": 1, "project": 5 },
+            { "source": 21, "target": 9, "value": 1, "project": 5 },
+            { "source": 18, "target": 3, "value": 1, "project": 5 },
+            { "source": 18, "target": 6, "value": 1, "project": 5 },
+            { "source": 18, "target": 9, "value": 1, "project": 5 },
+            { "source": 3, "target": 6, "value": 1, "project": 5 },
+            { "source": 3, "target": 9, "value": 1, "project": 5 },
+            { "source": 6, "target": 9, "value": 1, "project": 5 },
+            { "source": 21, "target": 1, "value": 1, "project": 9 },
+            { "source": 14, "target": 15, "value": 1, "project": 10 },
+            { "source": 2, "target": 13, "value": 1, "project": 11 },
+            { "source": 11, "target": 0, "value": 1, "project": 12 },
             { "source": 11, "target": 10, "value": 1, "project": 14 }
+
     ],
         "links":
     [
@@ -350,11 +289,10 @@
             
             { "source": 16, "target": 21, "value": 1, "project": 5 },
             { "source": 16, "target": 18, "value": 1, "project": 5 },
-            { "source": 16, "target": 3, "value": 1, "project": 5 },
+            { "source": 16, "target": 5, "value": 1, "project": 5 },
             { "source": 16, "target": 6, "value": 1, "project": 5 },
             { "source": 16, "target": 9, "value": 1, "project": 5 },
             
-            { "source": 16, "target": 4, "value": 1, "project": 6 },
             { "source": 16, "target": 21, "value": 1, "project": 7 },
             { "source": 16, "target": 21, "value": 1, "project": 8 },
             { "source": 16, "target": 1, "value": 1, "project": 9 },
@@ -380,7 +318,6 @@
             { "source": 16, "target": 1, "value": 1, "project": 0 },
             { "source": 16, "target": 2, "value": 1, "project": 0 },
             { "source": 16, "target": 3, "value": 1, "project": 0 },
-            { "source": 16, "target": 4, "value": 1, "project": 0 },
             { "source": 16, "target": 5, "value": 1, "project": 0 },
             { "source": 16, "target": 6, "value": 1, "project": 0 },
             { "source": 16, "target": 7, "value": 1, "project": 0 },

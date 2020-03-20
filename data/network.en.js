@@ -132,7 +132,7 @@
             "logo": "DZHW-Logo_HKS44.jpg",
             "group": 1,
             "location": 9,
-            "url":"http://www.dzhw.eu/start"
+            "url":"http://www.dzhw.eu"
         },
         {
             "name": "University Tübingen",
@@ -275,7 +275,7 @@
             "logo": "Wortmarke_dt_Uni_Ma_45mm.jpg",
             "group": 1,
             "location": 4,
-            "url":"https://www.neps-data.de"
+            "url":"http://www.uni-mannheim.de/1/english/"
         },
         {
             "name": "University Siegen",
@@ -308,7 +308,7 @@
             "logo": "ZEW-Logo_klein.jpg",
             "group": 1,
             "location": 4,
-            "url":"http://www.uni-mannheim.de/1/"
+            "url":"http://www.zew.de/en/"
         }
             
     ],
@@ -351,7 +351,7 @@
             
             { "source": 16, "target": 21, "value": 1, "project": 5 },
             { "source": 16, "target": 18, "value": 1, "project": 5 },
-            { "source": 16, "target": 3, "value": 1, "project": 5 },
+            { "source": 16, "target": 5, "value": 1, "project": 5 },
             { "source": 16, "target": 6, "value": 1, "project": 5 },
             { "source": 16, "target": 9, "value": 1, "project": 5 },
             
@@ -398,7 +398,10 @@
             { "source": 16, "target": 16, "value": 1, "project": 16 },
             { "source": 16, "target": 16, "value": 1, "project": 17 },
             { "source": 16, "target": 16, "value": 1, "project": 18 },
+
             { "source": 16, "target": 16, "value": 1, "project": 19 },
+            { "source": 16, "target": 13, "value": 1, "project": 19 },
+
             { "source": 16, "target": 16, "value": 1, "project": 20 }
             
         ],
