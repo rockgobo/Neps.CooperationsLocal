@@ -4,7 +4,7 @@
   "description": "Zeig eine Karte mit allen Netzwerkpartnern des NEPS an",
   "main": "index.html",
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "knockout": "^3.5.1",
     "knockout-mapping": "^2.6.0"
   },
